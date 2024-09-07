@@ -146,8 +146,8 @@ html,body{
     font-family: "calibri";
     text-transform: capitalize
 }
-#about #scroll_tag{
-    bottom: 10vh;
+#project #scroll_tag{
+    bottom: 3vh;
     left: 0px;
     position: absolute;
     width: 100vw;
@@ -156,11 +156,12 @@ html,body{
     padding: 1vh;
     white-space: nowrap;
 }
-#about #scroll_tag #scroll{
+#project #scroll_tag #scroll{
     display: inline-block;
     animation: 5s scroll infinite linear;
 }
-#about #scroll a{
+#project #scroll a{
+    font-family: "Outfit";
     height: 5px;
     color: rgb(0, 0, 0);
     margin: 0 2vw;
@@ -332,7 +333,7 @@ html,body{
 
 
     #page1 #text #big{
-        
+
         color:   #fab144;
         text-transform: capitalize;
         display: flex;
@@ -395,8 +396,8 @@ html,body{
         font-size: 2.4vw;
     }
 
-    #about #scroll_tag {
-        bottom: 10vh;
+    #project #scroll_tag {
+        bottom: 3vh;
         left: 0px;
         position: absolute;
         width: 100vw;
@@ -405,7 +406,7 @@ html,body{
         padding: 1vh;
         white-space: nowrap;
     }
-    #about #scroll a {
+    #project #scroll a {
         height: 5px;
         color: rgb(0, 0, 0);
         margin: 0 2vw;
@@ -614,7 +615,7 @@ html,body{
     font-size: 2.4vw;
 }
 
-#about #scroll a {
+#project #scroll a {
     height: 5px;
     color: rgb(0, 0, 0);
     margin: 0 2vw;
