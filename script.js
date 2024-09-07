@@ -13,6 +13,18 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+
+  breakpoints: {
+    0:{
+      slidesPerView: 1
+    },
+    620:{
+      slidesPerView: 2
+    },
+    1024:{
+      slidesPerView: 3
+    }
+  }
 })
 
 // first page animation
