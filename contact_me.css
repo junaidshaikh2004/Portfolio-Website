@@ -185,3 +185,101 @@ html,body{
     }
 
 }
+
+@media (max-width: 600px){
+    #container {
+        border-radius: 25px;
+        width: 71vw;
+        padding: 2vh 0vw;
+        height: 55vh;
+        z-index: 9999;
+        position: absolute;
+        left: 16vw;
+        top: 23vh;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #container #title h2 {
+        color: #facf5a;
+        font-size: 8vw;
+        font-family: "Outfit";
+    }
+
+    .contact-inputs {
+        font-family: "calibri";
+        background-color: #f7f7f7;
+        width: 57vw;
+        height: 8vh;
+        border: none;
+        outline: none;
+        font-size: 7vw;
+        border-radius: 10px;
+    }
+
+    .contact-column button {
+        display: flex;
+        align-items: center;
+        padding: 1vh 1vw;
+        font-size: 5.5vw;
+        color: grey;
+        gap: 2vw;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: #f7f7f7;
+    }
+
+    
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+    #container {
+        border-radius: 25px;
+        width: 69vw;
+        padding: 2vh 0vw;
+        height: 54vh;
+        z-index: 9999;
+        position: absolute;
+        left: 17vw;
+        top: 16vh;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #container #title h2 {
+        color: #facf5a;
+        font-size: 9vw;
+        font-family: "Outfit";
+    }
+
+    .contact-inputs {
+        font-family: "calibri";
+        background-color: #f7f7f7;
+        width: 55vw;
+        height: 8vh;
+        border: none;
+        outline: none;
+        font-size: 5vw;
+        border-radius: 10px;
+    }
+
+    .contact-column button {
+        display: flex;
+        align-items: center;
+        padding: 1vh 1vw;
+        font-size: 3.5vw;
+        color: grey;
+        gap: 2vw;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: #f7f7f7;
+    }
+
+}

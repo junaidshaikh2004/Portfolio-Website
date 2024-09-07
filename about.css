@@ -121,3 +121,24 @@ html,body{
     }
 
 }
+
+@media (max-width: 600px){
+    #text {
+        position: absolute;
+        color: white;
+        top: 10vh;
+        padding: 0px 11vw;
+        font-size: 6vw;
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+    #text {
+        position: absolute;
+        color: white;
+        top: 22vh;
+        padding: 0 12vw;
+        font-size: 4vw;
+    } 
+}
